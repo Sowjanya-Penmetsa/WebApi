@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi2", "WebApi2\WebApi2.csproj", "{1DBE2C95-D1D5-4638-BE32-DE0CC54CFA1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web-Api CRUD ActionResult", "Web-Api CRUD ActionResult\Web-Api CRUD ActionResult.csproj", "{360DBA94-7CE1-48A1-8B2A-94DF02E6769D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web-Api CRUD ActionResult", "Web-Api CRUD ActionResult\Web-Api CRUD ActionResult.csproj", "{360DBA94-7CE1-48A1-8B2A-94DF02E6769D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Javascript and Web Api", "Javascript and Web Api\Javascript and Web Api.csproj", "{A892A49A-530A-4E0E-A9D2-90B149017BA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{360DBA94-7CE1-48A1-8B2A-94DF02E6769D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{360DBA94-7CE1-48A1-8B2A-94DF02E6769D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{360DBA94-7CE1-48A1-8B2A-94DF02E6769D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A892A49A-530A-4E0E-A9D2-90B149017BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A892A49A-530A-4E0E-A9D2-90B149017BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A892A49A-530A-4E0E-A9D2-90B149017BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A892A49A-530A-4E0E-A9D2-90B149017BA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
