@@ -21,6 +21,7 @@ namespace Javascript_and_Web_Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
+
             services.AddControllers();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
