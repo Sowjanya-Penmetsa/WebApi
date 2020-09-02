@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi2", "WebApi2\WebApi2.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web-Api CRUD ActionResult", "Web-Api CRUD ActionResult\Web-Api CRUD ActionResult.csproj", "{360DBA94-7CE1-48A1-8B2A-94DF02E6769D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Javascript and Web Api", "Javascript and Web Api\Javascript and Web Api.csproj", "{A892A49A-530A-4E0E-A9D2-90B149017BA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Javascript and Web Api", "Javascript and Web Api\Javascript and Web Api.csproj", "{A892A49A-530A-4E0E-A9D2-90B149017BA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi With Entity Framework", "WebApi With Entity Framework\WebApi With Entity Framework.csproj", "{112ADAD1-43F6-4C08-AA58-FC4E66B98567}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi With Entity Framework", "WebApi With Entity Framework\WebApi With Entity Framework.csproj", "{112ADAD1-43F6-4C08-AA58-FC4E66B98567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi with identity", "WebApi with identity\WebApi with identity.csproj", "{33160053-1BFA-4747-9ECA-7AF4B3435F11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{112ADAD1-43F6-4C08-AA58-FC4E66B98567}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{112ADAD1-43F6-4C08-AA58-FC4E66B98567}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{112ADAD1-43F6-4C08-AA58-FC4E66B98567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33160053-1BFA-4747-9ECA-7AF4B3435F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33160053-1BFA-4747-9ECA-7AF4B3435F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33160053-1BFA-4747-9ECA-7AF4B3435F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33160053-1BFA-4747-9ECA-7AF4B3435F11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
