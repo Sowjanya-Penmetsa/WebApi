@@ -7,7 +7,7 @@ namespace WebApi_With_Entity_Framework.Models
     {
         public Orders()
         {
-            OrderItems = new HashSet<OrderItems>();
+           
         }
 
         public string Id { get; set; }
@@ -21,6 +21,6 @@ namespace WebApi_With_Entity_Framework.Models
         public string OrderStatus { get; set; }
         public DateTimeOffset CreatedAt { get; set; }
 
-        public virtual ICollection<OrderItems> OrderItems { get; set; }
+        
     }
 }
