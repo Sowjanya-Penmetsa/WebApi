@@ -32,13 +32,13 @@ namespace WebApi_With_Entity_Framework.Models
         {          
             modelBuilder.Entity<Customers>(entity =>
             {
-                entity.Property(e => e.FirstName)
-                .IsRequired()
-                .HasMaxLength(50);
+                entity.Property(e => e.Id).HasMaxLength(128);
+                //.IsRequired()
+                //.HasMaxLength(50);
 
-                entity.Property(e => e.LastName)
-                .IsRequired()
-                .HasMaxLength(50);
+                //entity.Property(e => e.LastName)
+                //.IsRequired()
+                //.HasMaxLength(50);
             });
 
            
